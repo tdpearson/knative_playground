@@ -1,0 +1,14 @@
+apiVersion: skaffold/v4beta8
+kind: Config
+
+profiles:
+  - name: knative-install
+    manifests:
+      rawYaml:
+        - https://github.com/knative/operator/releases/download/knative-v1.12.1/operator.yaml
+
+  - name: knative-deploy
+    manifests:
+      kustomize:
+        paths:
+          - base
