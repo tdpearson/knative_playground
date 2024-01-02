@@ -4,10 +4,17 @@ This example uses Knative's K8S Operator to deploy. The [Install by using the Kn
 
 ### Setup
 
+- `make all` initializes and runs knative in minikube
+- `minikube tunnel` allows access to deployed services from outside of minikube
+
+---
+
+To run stages seperately:
+
 - `make init` starts minikube
 - `make install` installs the Knative operator into the knative-serving namespace
 - `make run` deploys a Knative instance into the default namespace
-- `minikube tunnel` allows access to deployed services from local
+- `minikube tunnel` allows access to deployed services from outside of minikube
 
 ### Next Steps
 

@@ -5,7 +5,7 @@ profiles:
   - name: knative-install
     manifests:
       rawYaml:
-        - https://github.com/knative/operator/releases/download/knative-v1.12.1/operator.yaml
+        - base/manifests/operator.yaml
 
   - name: knative-deploy
     manifests:

@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
   - knative-serving.yaml
-  - https://github.com/knative/serving/releases/download/knative-v1.12.2/serving-default-domain.yaml
+  - manifests/serving-default-domain.yaml
