@@ -16,6 +16,7 @@ There is an easier way to install the Knative operator using a [CLI plugin](http
 - [kubectl](https://kubectl.docs.kubernetes.io/installation/kubectl/)
 - [Skaffold](https://skaffold.dev/docs/install/#standalone-binary)
 - [Make](https://www.gnu.org/software/make/)
+- [httpie cli](https://httpie.io/cli)
 
 ### Recommended
 
